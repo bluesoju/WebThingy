@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome to Your Dashboard</h1>
+
+    <div id="task-list">
+        <!-- Danh sách công việc sẽ được hiển thị ở đây -->
+    </div>
+
+    <form id="add-task-form">
+        <input type="text" id="new-task" placeholder="Add a new task" required>
+        <button type="submit">Add Task</button>
+    </form>
+
+    <button onclick="logout()">Logout</button>
+    <a href="/logout">Logout</a>
+    <script src="script.js"></script>
+</body>
+</html>
